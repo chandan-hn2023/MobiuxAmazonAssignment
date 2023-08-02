@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Amazon Automation Suite">
+	<listeners>
+		<listener class-name = "com.amazon.in.qa.listeners.TestNgListeners"/>
+	</listeners>
+	
+  <test name="Searchbar Test cases">
+    <classes>
+      <class name="com.amazon.in.qa.testcases.TC_SearchbarTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
